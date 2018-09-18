@@ -1,5 +1,6 @@
 import React from 'react';
 import '../stylesheets/style.css';
+import { PropTypes } from 'react'
 
 import { Icon } from 'react-icons-kit'
 import {image} from 'react-icons-kit/fa/image'
@@ -25,3 +26,10 @@ export const SkiDayRow = ({resort, date, powder, backcountry}) =>
     
     </tr>
 )
+
+SkiDayRow.PropTypes = {
+    resort: PropTypes.string.isRequired,
+    date: PropTypes.instanceOf(Date).isRequired,
+    powder: PropTypes.bool,
+    backcountry: PropTypes.bool
+}

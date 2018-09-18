@@ -6,6 +6,7 @@ import {image} from 'react-icons-kit/fa/image'
 import {weatherSnow} from 'react-icons-kit/typicons/weatherSnow'
 import {calendar} from 'react-icons-kit/icomoon/calendar'
 import {SkiDayRow} from './SkiDayRow'
+import { PropTypes } from 'react'
 
 
 export const SkiDayList = ({days}) => 
@@ -30,3 +31,20 @@ export const SkiDayList = ({days}) =>
     </table>
 
 )
+
+SkiDayList.PropTypes = {
+    days: function(props){
+        if(!Array.isArray(props.days)){
+            return new Error(
+                "SkiDayList should be an array.."
+            )
+        }else if(!props.days.length){
+            return new Error(
+                "SkiDayList must have at least one record"
+            )
+        }else{
+            return null
+        }
+    }
+
+}
