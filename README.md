@@ -11,14 +11,16 @@ create new components; use props and state to pass data between components; use 
 projects with nested components and routes. 
 
 
-#Topics include:
--Refactoring elements with JSX
--Transpiling with Babel
--Creating components
--Adding component properties and methods
--Displaying child components
--Working with props and state
--Setting up routes
--Nesting routes
--Creating forms
--Understanding the component life cycle
+<h2>Topics include:<h2/>
+  <ul>
+    <li>Refactoring elements with JSX</li>
+    <li>Transpiling with Babel</li>
+    <li>Creating components</li>
+    <li>Adding component properties and methods</li>
+    <li>Displaying child components</li>
+    <li>Working with props and state</li>
+    <li>Setting up routes</li>
+    <li>Nesting routes</li>
+    <li>Creating forms</li>
+    <li>Understanding the component life cycle</li>  
+  </ul>
