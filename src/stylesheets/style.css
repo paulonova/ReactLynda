@@ -1,0 +1,341 @@
+/* line 3, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_index.scss */
+html,
+body,
+div#react-container,
+div.app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 12, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_index.scss */
+h1, label {
+  margin: 0;
+}
+
+/* line 16, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_index.scss */
+div.app {
+  background-image: url("http://localhost:3333/rowdy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 22, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_index.scss */
+div.whoops-404 {
+  background-color: white;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* line 3, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+nav.menu {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 1em);
+  font-size: 4em;
+  padding: .5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 14, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+nav.menu a {
+  color: #d3d5e3;
+}
+
+/* line 19, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.goal-progress {
+  width: 95%;
+  margin: 0 2.5%;
+  font-size: 2em;
+  position: absolute;
+  bottom: 5em;
+  display: flex;
+  font-family: verdana;
+  justify-content: space-between;
+  text-shadow: 2px 2px 10px #d3d5e3;
+}
+
+/* line 31, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.goal-progress progress {
+  flex-basis: 66%;
+  background-color: black;
+  height: .5em;
+  position: relative;
+  top: 17px;
+}
+
+/* line 39, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.goal-progress input {
+  background: none;
+  border: none;
+  position: relative;
+  width: 2em;
+  font-size: 1em;
+  padding: 0;
+  left: 9px;
+  outline: none;
+  text-shadow: 2px 2px 10px #d3d5e3;
+}
+
+/* line 51, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.goal-progress button {
+  font-size: .75em;
+  padding: .25em;
+  background-color: green;
+  color: white;
+}
+
+/* line 58, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.goal-progress button:disabled {
+  background-color: lightgrey;
+  color: #bababa;
+}
+
+/* line 67, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+progress::-webkit-progress-bar {
+  background-color: black;
+}
+
+/* line 71, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+progress::-webkit-progress-value {
+  background-color: #8a2a2d;
+}
+
+@-moz-document url-prefix() {
+  /* line 76, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+  progress {
+    display: none;
+  }
+}
+
+/* line 81, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3em;
+  height: calc(100% - 3em);
+}
+
+/* line 87, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 92, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div.total-days {
+  flex-basis: 100%;
+  font-size: 2em;
+}
+
+/* line 96, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div.total-days span, div.ski-day-count > div.total-days svg {
+  height: 200px;
+  background-color: gray;
+}
+
+/* line 102, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div:not(.total-days) {
+  flex-basis: 50%;
+}
+
+/* line 106, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div span, div.ski-day-count > div svg {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 112, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div span:first-child, div.ski-day-count > div svg:first-child {
+  border-radius: 25px 0 0 25px;
+  padding-left: 15px;
+}
+
+/* line 117, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-count > div span:last-child, div.ski-day-count > div svg:last-child {
+  border-radius: 0 25px 25px 0;
+  font-size: .5em;
+  padding-right: 15px;
+}
+
+/* line 130, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-list {
+  height: calc(100% - 13em);
+  overflow-y: scroll;
+}
+
+/* line 135, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-list table {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: verdana, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* line 136, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-list table caption {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #8f2e32;
+}
+
+/* line 147, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-list table td {
+  padding: .2em;
+}
+
+/* line 151, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.ski-day-list table a {
+  margin: 15px;
+}
+
+/* line 157, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.show-errors {
+  width: 100%;
+}
+
+/* line 161, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.show-errors div {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  background-color: red;
+  color: white;
+  font-family: verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 172, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+div.show-errors div svg {
+  font-size: 2em;
+  position: relative;
+  top: 9px;
+  right: 9px;
+}
+
+/* line 181, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day {
+  font-family: Verdana, sans-serif;
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  height: calc(100% - 12em);
+}
+
+/* line 191, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day > label,
+form.add-day div {
+  margin: 1em 0;
+}
+
+/* line 197, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day label {
+  font-size: 1.5em;
+  text-shadow: 3px 3px 10px #d3d5e3;
+  height: 10px;
+  font-weight: bold;
+}
+
+/* line 204, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day input[type="text"],
+form.add-day input[type="date"] {
+  font-size: 1.5em;
+  padding: .25em;
+  border-radius: .2em;
+  outline: none;
+  min-height: 36px;
+}
+
+/* line 213, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day input[type="checkbox"] {
+  transform: scale(2);
+  margin: 0;
+  padding: 0;
+  margin-right: 2em;
+}
+
+/* line 220, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day div > label {
+  position: relative;
+  top: 2px;
+}
+
+/* line 225, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete {
+  position: relative;
+}
+
+/* line 227, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete input {
+  width: calc(100% - .75em);
+}
+
+/* line 231, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete span {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 2em;
+}
+
+/* line 238, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete .suggestions {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  background-color: white;
+  overflow-y: scroll;
+  z-index: 3;
+}
+
+/* line 251, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete .suggestions p {
+  padding: 1em;
+  margin: 0;
+}
+
+/* line 255, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete .suggestions p:hover {
+  background-color: yellow;
+}
+
+/* line 260, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day .autocomplete .suggestions:empty {
+  display: none;
+}
+
+/* line 266, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day button {
+  margin: auto;
+  width: 100%;
+  font-size: 2em;
+  background-color: #8a2a2d;
+  font-weight: bold;
+  color: #d3d5e3;
+  padding: 5px;
+}
+
+/* line 6, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/style.scss */
+html {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=../style.map */
