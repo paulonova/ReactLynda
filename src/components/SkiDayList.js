@@ -1,12 +1,7 @@
 import React from 'react';
 import '../stylesheets/style.css';
 
-import { Icon } from 'react-icons-kit'
-import {image} from 'react-icons-kit/fa/image'
-import {weatherSnow} from 'react-icons-kit/typicons/weatherSnow'
-import {calendar} from 'react-icons-kit/icomoon/calendar'
 import {SkiDayRow} from './SkiDayRow'
-import { PropTypes } from 'react'
 
 
 export const SkiDayList = ({days}) => 
