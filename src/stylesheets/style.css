@@ -15,7 +15,7 @@ h1, label {
 
 /* line 16, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_index.scss */
 div.app {
-  background-image: url("http://localhost:3333/rowdy.jpg");
+  background-image: url("http://localhost:3000/assets/img/rowdy.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -37,7 +37,7 @@ nav.menu {
   bottom: 0;
   left: 0;
   width: calc(100% - 1em);
-  font-size: 4em;
+  font-size: 3em;
   padding: .5em;
   display: flex;
   justify-content: space-around;
@@ -137,8 +137,8 @@ div.ski-day-count > div.total-days {
 
 /* line 96, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-count > div.total-days span, div.ski-day-count > div.total-days svg {
-  height: 200px;
-  background-color: gray;
+  height: 100px;
+  background-color: whitesmoke;
 }
 
 /* line 102, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
@@ -157,23 +157,25 @@ div.ski-day-count > div span, div.ski-day-count > div svg {
 /* line 112, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-count > div span:first-child, div.ski-day-count > div svg:first-child {
   border-radius: 25px 0 0 25px;
+  background-color: whitesmoke;
   padding-left: 15px;
 }
 
-/* line 117, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 118, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-count > div span:last-child, div.ski-day-count > div svg:last-child {
   border-radius: 0 25px 25px 0;
+  background-color: whitesmoke;
   font-size: .5em;
   padding-right: 15px;
 }
 
-/* line 130, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 132, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-list {
   height: calc(100% - 13em);
   overflow-y: scroll;
 }
 
-/* line 135, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 137, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-list table {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -182,29 +184,29 @@ div.ski-day-list table {
   text-align: center;
 }
 
-/* line 136, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 138, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-list table caption {
   background-color: white;
   background-color: rgba(255, 255, 255, 0.9);
   color: #8f2e32;
 }
 
-/* line 147, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 149, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-list table td {
   padding: .2em;
 }
 
-/* line 151, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 153, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.ski-day-list table a {
   margin: 15px;
 }
 
-/* line 157, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 159, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.show-errors {
   width: 100%;
 }
 
-/* line 161, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 163, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.show-errors div {
   position: absolute;
   width: 100%;
@@ -217,7 +219,7 @@ div.show-errors div {
   justify-content: space-between;
 }
 
-/* line 172, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+/* line 174, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
 div.show-errors div svg {
   font-size: 2em;
   position: relative;
@@ -225,8 +227,8 @@ div.show-errors div svg {
   right: 9px;
 }
 
-/* line 181, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day {
+/* line 183, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form {
   font-family: Verdana, sans-serif;
   width: 70%;
   margin-left: 15%;
@@ -234,26 +236,25 @@ form.add-day {
   flex-direction: column;
   justify-content: space-around;
   align-items: stretch;
-  height: calc(100% - 12em);
 }
 
-/* line 191, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day > label,
-form.add-day div {
+/* line 192, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form > label,
+form.add-day-form div {
   margin: 1em 0;
 }
 
-/* line 197, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day label {
+/* line 198, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form label {
   font-size: 1.5em;
-  text-shadow: 3px 3px 10px #d3d5e3;
+  text-shadow: 1px 1px 1px #d3d5e3;
   height: 10px;
   font-weight: bold;
 }
 
-/* line 204, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day input[type="text"],
-form.add-day input[type="date"] {
+/* line 205, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form input[type="text"],
+form.add-day-form input[type="date"] {
   font-size: 1.5em;
   padding: .25em;
   border-radius: .2em;
@@ -261,40 +262,40 @@ form.add-day input[type="date"] {
   min-height: 36px;
 }
 
-/* line 213, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day input[type="checkbox"] {
+/* line 214, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form input[type="checkbox"] {
   transform: scale(2);
   margin: 0;
   padding: 0;
-  margin-right: 2em;
+  margin-left: 2em;
 }
 
-/* line 220, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day div > label {
+/* line 221, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form div > label {
   position: relative;
   top: 2px;
 }
 
-/* line 225, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete {
+/* line 226, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete {
   position: relative;
 }
 
-/* line 227, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete input {
+/* line 228, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete input {
   width: calc(100% - .75em);
 }
 
-/* line 231, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete span {
+/* line 232, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete span {
   position: absolute;
   top: 5px;
   right: 10px;
   font-size: 2em;
 }
 
-/* line 238, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete .suggestions {
+/* line 239, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete .suggestions {
   position: absolute;
   top: 2em;
   left: 0;
@@ -306,24 +307,24 @@ form.add-day .autocomplete .suggestions {
   z-index: 3;
 }
 
-/* line 251, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete .suggestions p {
+/* line 252, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete .suggestions p {
   padding: 1em;
   margin: 0;
 }
 
-/* line 255, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete .suggestions p:hover {
+/* line 256, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete .suggestions p:hover {
   background-color: yellow;
 }
 
-/* line 260, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day .autocomplete .suggestions:empty {
+/* line 261, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form .autocomplete .suggestions:empty {
   display: none;
 }
 
-/* line 266, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
-form.add-day button {
+/* line 267, D:/FRONTEND UTVECKLING/LYNDA_COURSES/REACT/React_project/Exercise Files/Ch02/02_01/start/src/stylesheets/sass/_ui.scss */
+form.add-day-form button {
   margin: auto;
   width: 100%;
   font-size: 2em;

@@ -6,7 +6,7 @@ nav.menu {
   bottom: 0;
   left: 0;
   width: calc(100% - 1em);
-  font-size: 4em;
+  font-size: 3em;
   padding: .5em;
   display: flex;
   justify-content: space-around;
@@ -94,8 +94,8 @@ div.ski-day-count {
       font-size: 2em;
 
       span, svg {
-        height: 200px;
-        background-color: gray;
+        height: 100px;
+        background-color: whitesmoke;
       }
     }
 
@@ -111,11 +111,13 @@ div.ski-day-count {
 
       &:first-child {
         border-radius: 25px 0 0 25px;
+        background-color: whitesmoke;
         padding-left: 15px;
       }
 
       &:last-child {
         border-radius: 0 25px 25px 0;
+        background-color: whitesmoke;
         font-size: .5em;
         padding-right: 15px;
       }
@@ -178,7 +180,7 @@ div.show-errors {
   }
 }
 
-form.add-day {
+form.add-day-form {
   font-family: Verdana, sans-serif;
   width: 70%;
   margin-left: 15%;
@@ -186,7 +188,6 @@ form.add-day {
   flex-direction: column;
   justify-content: space-around;
   align-items: stretch;
-  height: calc(100% - 12em);
 
   >label,
   div {
@@ -196,7 +197,7 @@ form.add-day {
 
   label {
     font-size: 1.5em;
-    text-shadow: 3px 3px 10px $snow-white;
+    text-shadow: 1px 1px 1px $snow-white;
     height: 10px;
     font-weight: bold;
   }
@@ -214,7 +215,7 @@ form.add-day {
     transform: scale(2);
     margin: 0;
     padding: 0;
-    margin-right: 2em;
+    margin-left: 2em;
   }
 
   div>label {
